@@ -19,4 +19,5 @@ EBS-Elastic Block Store
 Auto scaling
 S3-Simple Storage Services
 ELB-Elastic Load Balancer
+IAM-
 
