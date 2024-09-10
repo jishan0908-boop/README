@@ -69,6 +69,5 @@ TYPE : sudo apt update
   wq
   -------PRESS ENTER -------
   NOW GO TO GOOGLE AND ENTER THE IP ADDRESS YOU WILL SEE HII
-  
-18. 
+  ----------------------------------------------------------------------------------------------------------------------
 
