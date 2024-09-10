@@ -41,32 +41,32 @@ INTRODUCTION OF AWS:
 1.TYPE ON GOOGLE HOW TO INSTALL WEB SERVER IN YOUR OS WHICH YOU HAVE SELECTED.<br/>
 2.NOW DOWNLOAD ANY WEB SERVER LIKE APACHE2ETC.<br/>
 3.FROM THAT INSTALL APACHE2 IN YOUR VM<br/>
-TYPE : sudo apt update<br/>
-       sudo apt install apache2<br/>
+TYPE : >>sudo apt update<br/>
+       >>sudo apt install apache2<br/>
 <br/>
 ---PRESS ENTER AND WEB SERVER WILL START INSTALLING----<br/>
 4.TO SEE THE WEB SERVER GO TO GOOGLE OPEN NEW TAB AND ENTER YOU IP ADDRESS . YOU WILL SEE THE APACHE2 WEB SERVER.<br/>
 -----------TO SEE HI ON SERVER ---------------<br/>
 1.ENTER THE FOLLOWING COMMAND<br/>
-  cd{ENTER SPACE}/var/www/html/<br/>
-  ls<br/>
-  YOU WILL SEE<br/>
-  index.html<br/>
+  >>cd{ENTER SPACE}/var/www/html/<br/>
+  >>ls<br/>
+  >>YOU WILL SEE<br/>
+  >>index.html<br/>
   ------TO REMOVE SUDO-----------<br/>
-  sudo su<br/>
+  >>sudo su<br/>
   --------NOW SUDO IS REMOVED--------<br/>
 <br/>
   -------REMOVE THE APACHE2 SERVER -----------<br/>
-  rm index.html<br/>
+  >>rm index.html<br/>
   ------THEN ENTER--------<br/>
-  vi index.html<br/>
+  >>vi index.html<br/>
   ------PRESS {i} -------<br/>
   ----------ENTER----------<br/>
-  <html>  hi   </html><br/>
+  >><html>  hi   </html><br/>
   ------NOW PRESS THESE KEY-------<br/>
-  ctrl+c<br/>
-  shift+";"<br/>
-  wq<br/>
+  >>ctrl+c<br/>
+  >>shift+";"<br/>
+  >>wq<br/>
   -------PRESS ENTER -------<br/>
   NOW GO TO GOOGLE AND ENTER THE IP ADDRESS YOU WILL SEE HII<br/>
   ----------------------------------------------------------------------------------------------------------------------<br/>
