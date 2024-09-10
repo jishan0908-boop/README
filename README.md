@@ -48,7 +48,7 @@ TYPE : sudo apt update
 4.TO SEE THE WEB SERVER GO TO GOOGLE OPEN NEW TAB AND ENTER YOU IP ADDRESS . YOU WILL SEE THE APACHE2 WEB SERVER.
 -----------TO SEE HI ON SERVER ---------------
 1.ENTER THE FOLLOWING COMMAND
-  cd /var/www/html/
+  cd{ENTER SPACE}/var/www/html/
   ls
   YOU WILL SEE
   index.html
