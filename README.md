@@ -71,3 +71,4 @@ TYPE : sudo apt update
   NOW GO TO GOOGLE AND ENTER THE IP ADDRESS YOU WILL SEE HII
   ----------------------------------------------------------------------------------------------------------------------
 
+
