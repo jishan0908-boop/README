@@ -13,11 +13,11 @@ CLOUD SERVICES:
 
 INTRODUCTION OF AWS:
 
-AWS SERVICES:
-EC2-Elastic Cloud Compute
-EBS-Elastic Block Store
-Auto scaling
-S3-Simple Storage Services
-ELB-Elastic Load Balancer
-IAM-
+1.AWS SERVICES:
+2.EC2-Elastic Cloud Compute
+3.EBS-Elastic Block Store
+4.Auto scaling
+5.S3-Simple Storage Services
+6.ELB-Elastic Load Balancer
+7.IAM-
 
