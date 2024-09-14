@@ -110,13 +110,16 @@ Semiconductor chips (also known as integrated circuits or ICs) are crucial compo
 
 #INTRODUCTION OF AWS:
 
-1.AWS SERVICES:
-2.EC2-Elastic Cloud Compute
-3.EBS-Elastic Block Store
+1.AWS SERVICES:<br/>
+2.EC2-Elastic Cloud Computing<br/>
+3.EBS-Elastic Block Store<br/>
 4.Auto scaling
-5.S3-Simple Storage Services
-6.ELB-Elastic Load Balancer
-7.IAM-
+5.S3-Simple Storage Services<br/>
+6.ELB-Elastic Load Balancer<br/>
+7.IAM-Identity and Access Management <br/>
+8.VPC – Virtual Private Cloud<br/>
+9.DNS Route 53 - DNS <br/>
+10.RDS – Relational Database Service<br/>
 
 1. CREATE AN AWS ACCOUNT
 2. THEN GO TO CONSOLE WHERE YOU FIND EC2.
