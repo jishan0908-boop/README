@@ -210,4 +210,4 @@ TYPE : >>sudo apt update<br/>
 >>>>>>>>>> wq   press {ENTER}<br/>
 >>>>>>>>>> docker run --name docker-nginx -p 80:80 -d -v ~/docker-nginx/html:/usr/share/nginx/html nginx # Linking the container to the VM<br/>
 >>>>>>>>>> After running that command, enter the server’s IP address into the browser to view the  new landing page<br/>
->>>>>>>>>>  
+
