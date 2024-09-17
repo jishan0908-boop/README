@@ -170,5 +170,44 @@ TYPE : >>sudo apt update<br/>
   -------PRESS ENTER -------<br/>
   NOW GO TO GOOGLE AND ENTER THE IP ADDRESS YOU WILL SEE HII<br/>
   ---------------------------------------------------------------------------------------------------------------------<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
-
+ USING CONTAINER's IN VM , USNIG  DOCKER TO ADD NGINX SEVER IN IT AND TYPING HI IN WEB SERVER <br/>
+ 1. First I login in my AWS account . Thne I created an instance .<br/>
+ 2. In instance  I make some changes , where I edit in network setting , where I added SSH , HTTPS , HTTP, ALL TRAFFIC , ALL TCP , ALL UDP AND CREATED AN INSTANCE.<br/>
+ 3. Then I open puuty add the IP address from instance and add key pair file which I have downloaded when I creating instance.<br/>
+ 4. After that I click  on open , then my ubuntu terminal was opended , where I logined by writting ubuntu.<br/>
+ 5. After that I have to install docker in my OS .<br/>
+ 6. Then , I enter few command to  install the docker<br/>
+ 7. COMMANDS ARE:<br/>
+>>>>>>>>>> curl -sL https://github.com/ShubhamTatvamasi/docker-install/raw/master/docker-install.sh | bash<br/>
+>>>>>>>>>> newgrp docker  # this command will help us to use docker<br/>
+>>>>>>>>>> docker ps      # provides a list of the Docker containers on your machine<br/>
+>>>>>>>>>> docker --version # to check the version of docker which is installed<br/>
+>>>>>>>>>> docker pull nginx #TO use nginx server in container<br/>
+>>>>>>>>>> docker run --name docker-nginx -p 80:80 nginx  #In a web browser, enter your server’s IP address to reveal Nginx’s default landing page<br/>
+>>>>>>>>>> ctrl + c  #to stop the container from running<br/>
+>>>>>>>>>> docker ps -a #The output reveals that the Docker container has exited<br/>
+>>>>>>>>>> DETACHED MODE<br/>
+>>>>>>>>>> docker run --name docker-nginx -p 80:80 -d nginx #output is the container’s ID <br/>
+>>>>>>>>>> docker ps # provoide new information about container<br/>
+>>>>>>>>>> docker stop docker-nginx # to stop the container<br/>
+>>>>>>>>>> docker rm docker-nginx<br/>
+>>>>>>>>>>  Building a Web Page to Serve on Nginx<br/>
+>>>>>>>>>> mkdir -p ~/docker-nginx/html # Create a new directory for the website content within the home directory<br/>
+>>>>>>>>>> cd ~/docker-nginx/html # Create an HTML file to serve on the server<br/>
+>>>>>>>>>> ls<br/>
+>>>>>>>>>> cd html/<br/>
+>>>>>>>>>> ls # will show index.html file<br/>
+>>>>>>>>>> sudo vi index.html<br/>
+>>>>>>>>>> press {"i"} # help to insert in the web server<br/>
+>>>>>>>>>> <html> hi </html> # write whatever you want to write I write only hi<br/>
+>>>>>>>>>> ctrl + c<br/>
+>>>>>>>>>> shift + ;<br/>
+>>>>>>>>>> wq   press {ENTER}<br/>
+>>>>>>>>>> docker run --name docker-nginx -p 80:80 -d -v ~/docker-nginx/html:/usr/share/nginx/html nginx # Linking the container to the VM<br/>
+>>>>>>>>>> After running that command, enter the server’s IP address into the browser to view the  new landing page<br/>
+>>>>>>>>>>  
