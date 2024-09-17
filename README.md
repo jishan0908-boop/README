@@ -183,31 +183,31 @@ TYPE : >>sudo apt update<br/>
  5. After that I have to install docker in my OS .<br/>
  6. Then , I enter few command to  install the docker<br/>
  7. COMMANDS ARE:<br/>
->>>>>>>>>> curl -sL https://github.com/ShubhamTatvamasi/docker-install/raw/master/docker-install.sh | bash<br/>
->>>>>>>>>> newgrp docker  # this command will help us to use docker<br/>
->>>>>>>>>> docker ps      # provides a list of the Docker containers on your machine<br/>
->>>>>>>>>> docker --version # to check the version of docker which is installed<br/>
->>>>>>>>>> docker pull nginx #TO use nginx server in container<br/>
->>>>>>>>>> docker run --name docker-nginx -p 80:80 nginx  #In a web browser, enter your server’s IP address to reveal Nginx’s default landing page<br/>
->>>>>>>>>> ctrl + c  #to stop the container from running<br/>
->>>>>>>>>> docker ps -a #The output reveals that the Docker container has exited<br/>
->>>>>>>>>> DETACHED MODE<br/>
->>>>>>>>>> docker run --name docker-nginx -p 80:80 -d nginx #output is the container’s ID <br/>
->>>>>>>>>> docker ps # provoide new information about container<br/>
->>>>>>>>>> docker stop docker-nginx # to stop the container<br/>
->>>>>>>>>> docker rm docker-nginx<br/>
->>>>>>>>>>  Building a Web Page to Serve on Nginx<br/>
->>>>>>>>>> mkdir -p ~/docker-nginx/html # Create a new directory for the website content within the home directory<br/>
->>>>>>>>>> cd ~/docker-nginx/html # Create an HTML file to serve on the server<br/>
->>>>>>>>>> ls<br/>
->>>>>>>>>> cd html/<br/>
->>>>>>>>>> ls # will show index.html file<br/>
->>>>>>>>>> sudo vi index.html<br/>
->>>>>>>>>> press {"i"} # help to insert in the web server<br/>
->>>>>>>>>> <html> hi </html> # write whatever you want to write I write only hi<br/>
->>>>>>>>>> ctrl + c<br/>
->>>>>>>>>> shift + ;<br/>
->>>>>>>>>> wq   press {ENTER}<br/>
->>>>>>>>>> docker run --name docker-nginx -p 80:80 -d -v ~/docker-nginx/html:/usr/share/nginx/html nginx # Linking the container to the VM<br/>
+>>>>>>>>>> 1. curl -sL https://github.com/ShubhamTatvamasi/docker-install/raw/master/docker-install.sh | bash<br/>
+>>>>>>>>>> 2. newgrp docker  # this command will help us to use docker<br/>
+>>>>>>>>>> 3.docker ps      # provides a list of the Docker containers on your machine<br/>
+>>>>>>>>>>4. docker --version # to check the version of docker which is installed<br/>
+>>>>>>>>>> 5. docker pull nginx #TO use nginx server in container<br/>
+>>>>>>>>>> 6. docker run --name docker-nginx -p 80:80 nginx  #In a web browser, enter your server’s IP address to reveal Nginx’s default landing page<br/>
+>>>>>>>>>> 7. ctrl + c  #to stop the container from running<br/>
+>>>>>>>>>> 8.  docker ps -a #The output reveals that the Docker container has exited<br/>
+>>>>>>>>>> 9.  DETACHED MODE<br/>
+>>>>>>>>>> 10. docker run --name docker-nginx -p 80:80 -d nginx #output is the container’s ID <br/>
+>>>>>>>>>> 11. docker ps # provoide new information about container<br/>
+>>>>>>>>>> 12. docker stop docker-nginx # to stop the container<br/>
+>>>>>>>>>> 13. docker rm docker-nginx<br/>
+>>>>>>>>>> Building a Web Page to Serve on Nginx<br/>
+>>>>>>>>>>  14. mkdir -p ~/docker-nginx/html # Create a new directory for the website content within the home directory<br/>
+>>>>>>>>>> 15. cd ~/docker-nginx/html # Create an HTML file to serve on the server<br/>
+>>>>>>>>>> 16. ls<br/>
+>>>>>>>>>> 17. cd html/<br/>
+>>>>>>>>>>  18.ls # will show index.html file<br/>
+>>>>>>>>>>  19.sudo vi index.html<br/>
+>>>>>>>>>> 20.  press {"i"} # help to insert in the web server<br/>
+>>>>>>>>>>  21. <html> hi </html> # write whatever you want to write I write only hi<br/>
+>>>>>>>>>>  22. ctrl + c<br/>
+>>>>>>>>>>  23. shift + ;<br/>
+>>>>>>>>>> 24. wq   press {ENTER}<br/>
+>>>>>>>>>>  25. docker run --name docker-nginx -p 80:80 -d -v ~/docker-nginx/html:/usr/share/nginx/html nginx # Linking the container to the VM<br/>
 >>>>>>>>>> After running that command, enter the server’s IP address into the browser to view the  new landing page<br/>
 
