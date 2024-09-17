@@ -183,7 +183,7 @@ TYPE : >>sudo apt update<br/>
  5. After that I have to install docker in my OS .<br/>
  6. Then , I enter few command to  install the docker<br/>
  7. COMMANDS ARE:<br/>
->>>>>>>>>> 1. curl -sL https://github.com/ShubhamTatvamasi/docker-install/raw/master/docker-install.sh | bash<br/>
+>> 1. curl -sL https://github.com/ShubhamTatvamasi/docker-install/raw/master/docker-install.sh | bash<br/>
 >>>>>>>>>> 2. newgrp docker  # this command will help us to use docker<br/>
 >>>>>>>>>> 3.docker ps      # provides a list of the Docker containers on your machine<br/>
 >>>>>>>>>>4. docker --version # to check the version of docker which is installed<br/>
