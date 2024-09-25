@@ -175,7 +175,7 @@ index.html
 sudo su
 ```
 #####  --------NOW SUDO IS REMOVED--------<br/>
-<br/>
+
 ##### -------REMOVE THE APACHE2 SERVER -----------<br/>
 ```
 rm index.html
