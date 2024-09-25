@@ -192,11 +192,17 @@ i
 <html>  hi   </html>
 ```
 ## ------NOW PRESS THESE KEY-------<br/>
+
 ### ctrl+c<br/>
+
 ### shift+";"<br/>
+
 ###  wq<br/>
+
 ##### -------PRESS ENTER -------<br/>
+
 ###  NOW GO TO GOOGLE AND ENTER THE IP ADDRESS YOU WILL SEE HII<br/>
+
 ---------------------------------------------------------------------------------------------------------------------<br/>
 <br/>
 <br/>
