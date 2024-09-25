@@ -141,7 +141,7 @@ Semiconductor chips (also known as integrated circuits or ICs) are crucial compo
 1.TYPE ON GOOGLE HOW TO INSTALL WEB SERVER IN YOUR OS WHICH YOU HAVE SELECTED.<br/>
 2.NOW DOWNLOAD ANY WEB SERVER LIKE APACHE2ETC.<br/>
 3.FROM THAT INSTALL APACHE2 IN YOUR VM<br/>
-TYPE : >>sudo apt update<br/>
+TYPE : '''sudo apt update'''<br/>
        >>sudo apt install apache2<br/>
 <br/>
 ---PRESS ENTER AND WEB SERVER WILL START INSTALLING----<br/>
@@ -209,4 +209,9 @@ TYPE : >>sudo apt update<br/>
 >>  23. shift + ;<br/>
 >> 24. wq   press {ENTER}<br/>
 >>  25. docker run --name docker-nginx -p 80:80 -d -v ~/docker-nginx/html:/usr/share/nginx/html nginx # Linking the container to the VM<br/>
->>>>>>>>>> After running that command, enter the server’s IP address into the browser to view the  new landing page<br/>
+>>>>>>>>>> After running that command, enter the server’s IP address into the browser to view the  new landing page<br/>
+
+
+
+INSTALLING MINIKUBE IN VM 
+1. CREATE AN INSTANCE IN AWS AS , WITH OS OF UBUNTU OR WHAT YOU WANT THEN CHANGE SOME SETTINGS TO WORK LIKE 
