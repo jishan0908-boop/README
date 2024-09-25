@@ -142,9 +142,9 @@ Semiconductor chips (also known as integrated circuits or ICs) are crucial compo
 2.NOW DOWNLOAD ANY WEB SERVER LIKE APACHE2ETC.<br/>
 3.FROM THAT INSTALL APACHE2 IN YOUR VM<br/>
 TYPE :
-'''
+```
 sudo apt update
-'''
+```
        >>sudo apt install apache2<br/>
 <br/>
 ---PRESS ENTER AND WEB SERVER WILL START INSTALLING----<br/>
