@@ -515,6 +515,7 @@ sudo snap install openstack --channel 2024.1/beta
 ```
 sunbeam prepare-node-script
 ```
+```
 sunbeam prepare-node-script | bash -x && newgrp snap_daemon
 ```
 ### It will directly execute it<br/>
