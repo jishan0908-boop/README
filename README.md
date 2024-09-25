@@ -313,14 +313,10 @@ docker run --name docker-nginx -p 80:80 -d -v ~/docker-nginx/html:/usr/share/ngi
 
 ###   Amozon Machine Image (AMI)<br/>
 
-   ![asw1](https://github.com/user-attachments/assets/087622b5-5d80-4f72-a1bd-a32a08d68dd2)
-
 ###   Instance type<br/>
 
 ###   t3.xlarge<br/>
-
-   ![asw1](https://github.com/user-attachments/assets/a73aee13-3dbf-4606-bb2b-26a04eeb493f)
-
+  
 ###   AND <br/>
 
 ###   STORAGE<br/>
@@ -478,13 +474,9 @@ http://server_ip:8001/api/v1/namespaces/kubernetes-dashboard/services/http:kuber
 
 ###   Amozon Machine Image (AMI)<br/>
 
-   ![asw1](https://github.com/user-attachments/assets/087622b5-5d80-4f72-a1bd-a32a08d68dd2)
-
 ###   Instance type<br/>
 
 ###   t3.xlarge<br/>
-
-   ![asw1](https://github.com/user-attachments/assets/a73aee13-3dbf-4606-bb2b-26a04eeb493f)
 
 ###   AND <br/>
 
