@@ -40,7 +40,7 @@ Bare metal refers to a physical computer server that's dedicated to a single use
 Ethernet is a wired computer networking technology that allows devices to communicate with each other over a local area network (LAN), metropolitan area network (MAN), or wide area network (WAN).
 
 ## Virtual Machine
-
+ 
 A virtual machine (VM) is a software-based computer that functions like a physical computer, but exists within another computer's operating system. In cloud computing, VMs are used to virtualize the resources of cloud service providers' servers. This allows multiple customers to share resources, which is known as multi-tenant cloud architecture.
 
 ## Virtualization and Cloud
