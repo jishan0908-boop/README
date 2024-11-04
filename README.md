@@ -539,6 +539,12 @@ sunbeam launch ubuntu --name test
 ## This command will launch our vm which we have created on openstack<br/>
 ![openstak 2](https://github.com/user-attachments/assets/e6a40e0f-0cbd-43ab-b48f-84e837588d56)
 
+## VPC
+* Go to VPC and create a VPC then we have to create 4 subnets , where 2 subnets are private and other two are public .
+* Then create  INTERNET GATWAY , whic is to be connected to your VPC which is created earliy.
+* Then we have to create VPG virtual privaye gate, and connect to VPC .
+* Now we have to go to the route table and create 2 route table , one for IGW and another for VGW .
+* Now we have to connect on private and one public subnet to each route table .
 
 
 
