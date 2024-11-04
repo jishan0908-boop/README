@@ -540,45 +540,35 @@ sunbeam launch ubuntu --name test
 ## This command will launch our vm which we have created on openstack<br/>
 ![openstak 2](https://github.com/user-attachments/assets/e6a40e0f-0cbd-43ab-b48f-84e837588d56)
 
-## VPC
-* Go to VPC and create a VPC then we have to create 4 subnets , where 2 subnets are private and other two are public .
-* ![2](https://github.com/user-attachments/assets/bef1b1d3-cc3e-4aad-8623-2daad378982f)
-* ![3](https://github.com/user-attachments/assets/9d7fa784-7ef9-4fe4-9dad-1cc5721338e5)
+## CREATING A VPC AND LOAD BALANCER TESTING 
+* First we have to go on to aws , then we have to go on to VPC (Virtual Private Cloud).
+* Thn we have to create a vpc with our choice name tags and thn create.
+* Next step , is to make subnet , here we are making 4 subnet were 2 subnets are private with two different zones , and other two subnets are ublic subnets which are also , with two other different zones , we have to check also that one private and one public subnets has same zones .
+* ![subnetscreation](https://github.com/user-attachments/assets/8bfe36be-3f1e-4ba8-8537-3d05cc1b7821)
+
+* After createing the subnets , we have to create IGW (Internet Gatways), after creation we have to attach that to our VPC that we have created
+* ![creating igw ](https://github.com/user-attachments/assets/b823b827-522e-4e56-9c43-fb84948f51e7)
+* ![attach to vpc igw](https://github.com/user-attachments/assets/ccf19fa4-c5e8-4eaa-8c82-15fae8fb9b78)
+
+* Then we have to create the VGW(Virtual Gateway), it has also be connect to our VPC .
+* ![attaching vgw wit the vpc](https://github.com/user-attachments/assets/233c2504-27c2-4070-bb53-dbcf46486686)
+* ![creating vgw ](https://github.com/user-attachments/assets/60cd06bd-428b-4397-af81-73e986881323)
+
+* After that we have to create the 2 Route table where one is for IGW and other is for VGW also we have to associte the public subnets with the IGW route table and private once with VGW route table .
+* In the below images I have change some settings of rooute tables where I have connect them to my IGW & VGW , with some other port number .
+* ![creating route tables](https://github.com/user-attachments/assets/cf513e63-9693-45ba-bba0-248524a7b673)
+* ![associating subnets to the route tables](https://github.com/user-attachments/assets/28e4200e-9457-46a7-8343-0a960d0645ed)
+* ![editing route table r1 ](https://github.com/user-attachments/assets/23ef3efa-099e-4d0d-9f98-52815bad9197)
+* ![in r1 ip](https://github.com/user-attachments/assets/d2be1bef-adec-498c-9958-518d571eea32)
+* ![for r2 ](https://github.com/user-attachments/assets/02110d42-4dda-409f-917b-90502fa4e7e3)
 
 
-* Then create  INTERNET GATWAY , whic is to be connected to your VPC which is created earliy.
-* ![5](https://github.com/user-attachments/assets/b908d26c-425e-4c2e-bd8e-b0004ea7bde3)
 
-* Then we have to create VPG virtual privaye gate, and connect to VPC .
-* Now we have to go to the route table and create 2 route table , one for IGW and another for VGW .
-* ![6](https://github.com/user-attachments/assets/7caaf6de-1315-4e19-b96c-dcc93e38060f)
 
-* Now we have to connect two public subnet in myigw and on other we have to add the private subnets .
-* ![9](https://github.com/user-attachments/assets/25f9bece-a093-4f48-9966-b73294e1cd7e)
 
-* now we have to create two instnaces where we have to enable the public IPv4 .
-* then on both instance we have to downlaod the web server here i have downlaoded the apache2 server
-* after that i chech that my instances are working or not .
-![1](https://github.com/user-attachments/assets/024546cd-58e7-4e43-984c-75fbef05e5d3)
-* now we have to create the load  balancer
-* where we have to give vpc, aviablity zone of the ec2 instance
-* then we have to create the target group where we have to select the two insatance we have create then we have to go to helath check edited option which was present below the load balancer is create ,then edit it as given below image
-* ![1](https://github.com/user-attachments/assets/aea37c47-4c35-4cfc-9217-8ca8311697d0)
-* after that come to load balancer where we have to select the target group which we have created then make the load balancer , it will look like the given image below .
-* ![2](https://github.com/user-attachments/assets/49e396e6-aa45-46ff-8702-618da0f43397)
-* 
-  ![7](https://github.com/user-attachments/assets/c65912e8-6881-49ce-80cc-e6ac85046987)
-* Now go to any server and type some commands
-* ```
-  htop
-  ```
-  ```
-  seq 999999999999999999999999999999999999999999999999999999999 > /dev/null &
-  ```
-  ```
-  htop
-  ```
-*![4](https://github.com/user-attachments/assets/00da728c-b8c8-413a-8b52-e6f23d2179f3)
+
+
+
 
 
 
