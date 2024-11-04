@@ -541,10 +541,19 @@ sunbeam launch ubuntu --name test
 
 ## VPC
 * Go to VPC and create a VPC then we have to create 4 subnets , where 2 subnets are private and other two are public .
+* ![2](https://github.com/user-attachments/assets/bef1b1d3-cc3e-4aad-8623-2daad378982f)
+* ![3](https://github.com/user-attachments/assets/9d7fa784-7ef9-4fe4-9dad-1cc5721338e5)
+
+
 * Then create  INTERNET GATWAY , whic is to be connected to your VPC which is created earliy.
 * Then we have to create VPG virtual privaye gate, and connect to VPC .
 * Now we have to go to the route table and create 2 route table , one for IGW and another for VGW .
-* Now we have to connect on private and one public subnet to each route table .
+* Now we have to connect two public subnet in myigw and on other we have to add the private subnets .
+* now we have to create two instnaces where we have to enable the public IPv4 .
+* then on both instance we have to downlaod the web server here i have downlaoded the apache2 server
+* after that i chech that my instances are working or not .
+![1](https://github.com/user-attachments/assets/024546cd-58e7-4e43-984c-75fbef05e5d3)
+
 
 
 
