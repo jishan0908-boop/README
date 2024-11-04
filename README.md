@@ -1,3 +1,4 @@
+![4](https://github.com/user-attachments/assets/2ba63aec-6bd3-48b6-b3cc-3a1bf2a5fa4a)
 # KEYWORDS:
 ## Computation:
 
@@ -559,7 +560,8 @@ sunbeam launch ubuntu --name test
 * ![1](https://github.com/user-attachments/assets/aea37c47-4c35-4cfc-9217-8ca8311697d0)
 * after that come to load balancer where we have to select the target group which we have created then make the load balancer , it will look like the given image below .
 * ![2](https://github.com/user-attachments/assets/49e396e6-aa45-46ff-8702-618da0f43397)
-*
+*![4](https://github.com/user-attachments/assets/00da728c-b8c8-413a-8b52-e6f23d2179f3)
+
 
 
 
