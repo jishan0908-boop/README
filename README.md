@@ -565,7 +565,8 @@ sunbeam launch ubuntu --name test
 * After completion of that task , we have to make two EC2 instnaces which will help in our load balancer task, where we have changes the settings of EC2 instnaces these setting are done on both the instnaces .
 * ![changing settings in the ec2 unstance](https://github.com/user-attachments/assets/7ae32a2b-938c-4f18-a376-d66ac88ea46c)
 * ![created the ec2 instances ](https://github.com/user-attachments/assets/109b2d21-c81e-47ff-8f5e-fa80c0e864fa)
-
+* ![adding a web server on the instance](https://github.com/user-attachments/assets/6231f8f3-f420-4172-a21d-96be26d31795)
+* 
 * After the creation we have to add the web server on that , so I have enter the Apache2 server on the both the instances .
 
 * Then we have to create the load balancer , and we have to create the target gr also where we have to connect our instnaces , alos we haveto edit the health check setting which are requied
@@ -579,9 +580,6 @@ sunbeam launch ubuntu --name test
 * ![connecting the instances ](https://github.com/user-attachments/assets/060a96d1-4ae6-4a72-9910-28dd26daeabd)
 
 * After all the completeion we have tpo created the load balancer where , we have changes the setting .
-
-* ![suuceesfull load balancer is working](https://github.com/user-attachments/assets/c4264950-5313-4561-a6a7-a6748abaea50)
-
 * After creating the load balancer there is the DNS address which is to be copy and paste it to the chrome , or any other web browser .
 * If you reload the page you will see the two web server of two differnet instances which you have created before.
 * ![adding a web server on the instance](https://github.com/user-attachments/assets/ef14708f-858a-4741-88d6-c0d6cce891fa)
