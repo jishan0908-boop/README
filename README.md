@@ -562,6 +562,53 @@ sunbeam launch ubuntu --name test
 * ![in r1 ip](https://github.com/user-attachments/assets/d2be1bef-adec-498c-9958-518d571eea32)
 * ![for r2 ](https://github.com/user-attachments/assets/02110d42-4dda-409f-917b-90502fa4e7e3)
 
+* After completion of that task , we have to make two EC2 instnaces which will help in our load balancer task, where we have changes the settings of EC2 instnaces these setting are done on both the instnaces .
+* ![changing settings in the ec2 unstance](https://github.com/user-attachments/assets/7ae32a2b-938c-4f18-a376-d66ac88ea46c)
+* ![created the ec2 instances ](https://github.com/user-attachments/assets/109b2d21-c81e-47ff-8f5e-fa80c0e864fa)
+
+* After the creation we have to add the web server on that , so I have enter the Apache2 server on the both the instances .
+
+* Then we have to create the load balancer , and we have to create the target gr also where we have to connect our instnaces , alos we haveto edit the health check setting which are requied
+* ![crreating a load balancer](https://github.com/user-attachments/assets/f896d602-a3ac-4c0d-a43f-32b133ea5da6)
+* ![creataed the load balancer](https://github.com/user-attachments/assets/12a42278-a2bc-4133-80d1-24ae3f131741)
+* ![settinmgs of load ](https://github.com/user-attachments/assets/62f4e224-4618-4768-b20a-18b4c56fa5da)
+* ![creating target grps](https://github.com/user-attachments/assets/dc6a0846-ef2e-404c-bed6-83edd0643f3b)
+* ![security grp ](https://github.com/user-attachments/assets/65e577ff-ae4a-4d6f-88b1-8b9668829c15)
+* ![editing health checks](https://github.com/user-attachments/assets/5a6ea968-a6c0-414c-9bd6-6a2852eaa431)
+* ![health steeing 2](https://github.com/user-attachments/assets/b45ef372-b95c-4d65-a3b6-d7149497ca18)
+* ![connecting the instances ](https://github.com/user-attachments/assets/060a96d1-4ae6-4a72-9910-28dd26daeabd)
+
+* After all the completeion we have tpo created the load balancer where , we have changes the setting .
+
+* ![suuceesfull load balancer is working](https://github.com/user-attachments/assets/c4264950-5313-4561-a6a7-a6748abaea50)
+
+* After creating the load balancer there is the DNS address which is to be copy and paste it to the chrome , or any other web browser .
+* If you reload the page you will see the two web server of two differnet instances which you have created before.
+* ![adding a web server on the instance](https://github.com/user-attachments/assets/ef14708f-858a-4741-88d6-c0d6cce891fa)
+
+* Then on one linux web server you have to enter some commands to check the load balancer
+```
+seq 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 > /dev/null &
+```
+```
+htop
+```
+![final](https://github.com/user-attachments/assets/053a2e2a-3ba3-4a0c-b8af-315bfe92aa55)
+
+## This will how you can see that how your load balancer is working
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
