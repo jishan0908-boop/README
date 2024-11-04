@@ -550,15 +550,13 @@ sunbeam launch ubuntu --name test
 * ![5](https://github.com/user-attachments/assets/b908d26c-425e-4c2e-bd8e-b0004ea7bde3)
 
 * Then we have to create VPG virtual privaye gate, and connect to VPC .
-* ![7](https://github.com/user-attachments/assets/c65912e8-6881-49ce-80cc-e6ac85046987)
-
 * Now we have to go to the route table and create 2 route table , one for IGW and another for VGW .
 * ![6](https://github.com/user-attachments/assets/7caaf6de-1315-4e19-b96c-dcc93e38060f)
 
 * Now we have to connect two public subnet in myigw and on other we have to add the private subnets .
-* now we have to create two instnaces where we have to enable the public IPv4 .
-* ![8](https://github.com/user-attachments/assets/47063d1e-70fb-41ab-bc6c-a8c0958a069a)
+* ![9](https://github.com/user-attachments/assets/25f9bece-a093-4f48-9966-b73294e1cd7e)
 
+* now we have to create two instnaces where we have to enable the public IPv4 .
 * then on both instance we have to downlaod the web server here i have downlaoded the apache2 server
 * after that i chech that my instances are working or not .
 ![1](https://github.com/user-attachments/assets/024546cd-58e7-4e43-984c-75fbef05e5d3)
@@ -568,6 +566,8 @@ sunbeam launch ubuntu --name test
 * ![1](https://github.com/user-attachments/assets/aea37c47-4c35-4cfc-9217-8ca8311697d0)
 * after that come to load balancer where we have to select the target group which we have created then make the load balancer , it will look like the given image below .
 * ![2](https://github.com/user-attachments/assets/49e396e6-aa45-46ff-8702-618da0f43397)
+* 
+  ![7](https://github.com/user-attachments/assets/c65912e8-6881-49ce-80cc-e6ac85046987)
 * Now go to any server and type some commands
 * ```
   htop
