@@ -553,6 +553,14 @@ sunbeam launch ubuntu --name test
 * then on both instance we have to downlaod the web server here i have downlaoded the apache2 server
 * after that i chech that my instances are working or not .
 ![1](https://github.com/user-attachments/assets/024546cd-58e7-4e43-984c-75fbef05e5d3)
+* now we have to create the load  balancer
+* where we have to give vpc, aviablity zone of the ec2 instance
+* then we have to create the target group where we have to select the two insatance we have create then we have to go to helath check edited option which was present below the load balancer is create ,then edit it as given below image
+* ![1](https://github.com/user-attachments/assets/aea37c47-4c35-4cfc-9217-8ca8311697d0)
+* after that come to load balancer where we have to select the target group which we have created then make the load balancer , it will look like the given image below .
+* ![2](https://github.com/user-attachments/assets/49e396e6-aa45-46ff-8702-618da0f43397)
+*
+
 
 
 
