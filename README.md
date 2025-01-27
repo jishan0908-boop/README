@@ -183,7 +183,7 @@ rm index.html
 ```
 #####  ------THEN ENTER--------<br/>
 ```
-vi index.html
+vi index.html 
 ```
 ```
 i
